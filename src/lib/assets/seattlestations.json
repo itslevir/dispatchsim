@@ -1,0 +1,206 @@
+[
+  {
+    "number": 2,
+    "address": "2320 4th Avenue",
+    "coords": [47.616128, -122.344792],
+    "units": { "medic": 2, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 5,
+    "address": "925 Alaskan Way",
+    "coords": [47.603598, -122.338781],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 6,
+    "address": "405 Martin Luther King Jr. Way South",
+    "coords": [47.598993, -122.297776],
+    "units": { "medic": 0, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 8,
+    "address": "110 Lee Street",
+    "coords": [47.631164, -122.354892],
+    "units": { "medic": 0, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 9,
+    "address": "3829 Linden Avenue North",
+    "coords": [47.653624, -122.348955],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 10,
+    "address": "400 S. Washington Street",
+    "coords": [47.601204, -122.328507],
+    "units": { "medic": 2, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 11,
+    "address": "1514 SW Holden Street",
+    "coords": [47.533953, -122.354735],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 13,
+    "address": "3601 Beacon Avenue South",
+    "coords": [47.571734, -122.308694],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 14,
+    "address": "3224 4th Avenue S.",
+    "coords": [47.574643, -122.328582],
+    "units": { "medic": 1, "engine": 0, "ladder": 0 }
+  },
+  {
+    "number": 16,
+    "address": "6846 Oswego Place NE",
+    "coords": [47.679129, -122.323211],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 17,
+    "address": "1050 NE 50th Street",
+    "coords": [47.66527, -122.316708],
+    "units": { "medic": 1, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 18,
+    "address": "1521 NW Market Street",
+    "coords": [47.668387, -122.377341],
+    "units": { "medic": 1, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 20,
+    "address": "2800 15th Avenue West",
+    "coords": [47.645049, -122.375813],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 21,
+    "address": "7304 Greenwood Avenue North",
+    "coords": [47.682074, -122.355012],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 22,
+    "address": "901 East Roanoke",
+    "coords": [47.64296, -122.321031],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 24,
+    "address": "401 North 130th Street",
+    "coords": [47.723017, -122.353815],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 25,
+    "address": "1300 E. Pine Street",
+    "coords": [47.615541, -122.315146],
+    "units": { "medic": 1, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 26,
+    "address": "800 S. Cloverdale Street",
+    "coords": [47.526699, -122.322395],
+    "units": { "medic": 1, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 27,
+    "address": "1000 South Myrtle Street",
+    "coords": [47.539657, -122.319922],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 28,
+    "address": "5968 Rainier Avenue South",
+    "coords": [47.548614, -122.276376],
+    "units": { "medic": 1, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 29,
+    "address": "2139 Ferry Avenue SW",
+    "coords": [47.584383, -122.38873],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 30,
+    "address": "2931 Mt. Baker Boulevard S.",
+    "coords": [47.575585, -122.29484],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 31,
+    "address": "10503 Interlake Ave. N.",
+    "coords": [47.70507, -122.340657],
+    "units": { "medic": 2, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 32,
+    "address": "4700 38th Ave. SW",
+    "coords": [47.560991, -122.37989],
+    "units": { "medic": 1, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 33,
+    "address": "9645 Renton Avenue South",
+    "coords": [47.515861, -122.268664],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 34,
+    "address": "633 32nd Avenue East",
+    "coords": [47.625994, -122.291291],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 35,
+    "address": "8729 15th Avenue NW",
+    "coords": [47.693294, -122.377124],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 36,
+    "address": "3600 23rd Avenue SW",
+    "coords": [47.571063, -122.361698],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 37,
+    "address": "7700 35th Avenue SW",
+    "coords": [47.533506, -122.376210],
+    "units": { "medic": 0, "engine": 1, "ladder": 1 }
+  },
+  {
+    "number": 38,
+    "address": "4004 NE 55th Street",
+    "coords": [47.668706, -122.284506],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 39,
+    "address": "2806 NE 127th Street",
+    "coords": [47.721286, -122.297299],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 40,
+    "address": "9401 35th Avenue NE",
+    "coords": [47.696768, -122.290926],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": 41,
+    "address": "2416 34th Avenue West",
+    "coords": [47.640149, -122.400497],
+    "units": { "medic": 0, "engine": 1, "ladder": 0 }
+  },
+  {
+    "number": null,
+    "address": "325 9th Avenue",
+    "coords": [47.604305, -122.324072],
+    "units": { "medic": 4, "engine": 0, "ladder": 0 }
+  }
+]

@@ -13,3 +13,14 @@ export type seattleCityData = {
     ":@computed_region_kuhn_3gp2": string;
     ":@computed_region_q256_3sug": string;
 }
+
+export type sfdLocation = {
+    number: number | null;
+    address: string;
+    coords: [number, number];
+    units: {
+        medic: number;
+        engine: number;
+        ladder: number;
+    }
+}
