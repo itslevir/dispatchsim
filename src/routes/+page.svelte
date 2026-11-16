@@ -5,8 +5,6 @@
 	let { data }: PageProps = $props();
 	let { res, count } = data;
 
-	console.log(res.cityData[0].stationResponse);
-
 	let markers = $state<Record<string, Marker | undefined>>({});
 </script>
 
