@@ -3,21 +3,9 @@
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
+	let { res, count } = data;
 
-	let routes = $state<Record<string, any>>({});
-
-	let count = 3;
-	for (const incident of data.cityData.slice(0, count)) {
-		fetch(
-			`https://router.project-osrm.org/route/v1/driving/-122.344959,47.616150;${incident.report_location.coordinates[0]},${incident.report_location.coordinates[1]}?overview=false`
-		)
-			.then((res) => res.json())
-			.then((data) => {
-				const route = data.routes[0];
-				routes[incident.incident_number] = route;
-				console.log(routes);
-			});
-	}
+	console.log(res.cityData[0].stationResponse);
 
 	let markers = $state<Record<string, Marker | undefined>>({});
 </script>
@@ -30,7 +18,7 @@
 		}}
 	>
 		<TileLayer url={'https://tile.openstreetmap.org/{z}/{x}/{y}.png'} />
-		{#each data.cityData.slice(0, count) as incident (incident.incident_number)}
+		{#each res.cityData.slice(0, count) as incident (incident.incident_number)}
 			<Marker
 				latLng={[incident.report_location.coordinates[1], incident.report_location.coordinates[0]]}
 				bind:instance={markers[incident.incident_number]}
@@ -39,10 +27,11 @@
 					><h3 class="text-xl font-semibold">{incident.type}</h3>
 					<p>{new Date(incident.datetime).toLocaleString()}</p>
 					<p>
-						Estimated travel time:
-						{Math.floor(routes[incident.incident_number]?.duration / 60)} m {Math.floor(
-							routes[incident.incident_number]?.duration % 60
-						)} s
+						Estimated travel time: {Math.floor((incident.stationResponse?.[1] ?? 0) / 60)} minutes {incident
+							.stationResponse?.[1] % 60} seconds
+					</p>
+					<p>
+						Station: {incident.stationResponse?.[0] ?? 'Unknown'}
 					</p>
 					<button
 						type="submit"
@@ -54,7 +43,7 @@
 			</Marker>
 		{/each}
 	</Map>
-	{#each data.cityData.slice(0, count) as incident (incident.incident_number)}
+	{#each res.cityData.slice(0, count) as incident (incident.incident_number)}
 		<div class="m-2 flex flex-col gap-2 rounded-md border p-4">
 			<h3 class="text-xl font-semibold">{incident.type}</h3>
 			<a
